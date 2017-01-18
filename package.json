@@ -1,0 +1,19 @@
+{
+  "name": "vw",
+  "version": "1.0.0",
+  "description": "VW",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alisonakio/vw.git"
+  },
+  "author": "Alison Miazaki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alisonakio/vw/issues"
+  },
+  "homepage": "https://github.com/alisonakio/vw#readme"
+}
