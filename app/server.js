@@ -9,6 +9,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.set('view engine', 'ejs');
 
 //load features routes
+require('./home')(app);
 require('./item')(app);
 
 //error route
