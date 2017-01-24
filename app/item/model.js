@@ -1,5 +1,6 @@
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/vw');
+var config = require('../../config');
+mongoose.connect(config.db);
 
 var Schema = mongoose.Schema;
 
