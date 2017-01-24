@@ -21,7 +21,7 @@ app.use(function (err, req, res, next) {
 
 //route not found treatment
 app.all('*', function(req, res){	
-	res.json({ "error": "route not found 404" });
+	res.json({ "error": "route not found 404", "path": req.path });
 });
 
 module.exports = app;
